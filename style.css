@@ -1,0 +1,12 @@
+:root{--ink:#16302b;--bg:#f7f5ef;--accent:#2f6f62;--line:#d9d4c6}
+*{box-sizing:border-box}body{margin:0;font-family:Tahoma,"Segoe UI",Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.8}
+header,footer{background:var(--ink);color:#fff;padding:14px 20px}header a,footer a{color:#fff;text-decoration:none}
+header .brand{font-size:1.4rem;font-weight:700;letter-spacing:.5px;direction:ltr;display:inline-block}
+main{max-width:860px;margin:0 auto;padding:20px}h1{font-size:1.7rem;line-height:1.4}
+.card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:12px 0}
+.card h3{margin:0 0 6px}.meta{color:#555;font-size:.92rem}
+table{width:100%;border-collapse:collapse;background:#fff;margin:14px 0;font-size:.95rem}
+th,td{border:1px solid var(--line);padding:8px;text-align:right;vertical-align:top}th{background:#ece8da}
+.tip{background:#eaf3f0;border-right:4px solid var(--accent);padding:10px 14px;border-radius:6px}
+.note{font-size:.88rem;color:#555;border-top:1px solid var(--line);margin-top:24px;padding-top:10px}
+@media(max-width:600px){table,thead,tbody,tr,td,th{display:block}thead{display:none}tr{background:#fff;border:1px solid var(--line);margin:10px 0;border-radius:8px;padding:6px}td{border:0;padding:3px 8px}}
